@@ -30,3 +30,12 @@ class Task:
             d['important'],
             d['point']
         )
+
+    def __repr__(self):
+        return "id={s.id}," \
+               "title={s.title}," \
+               "description={s.description}," \
+               "due_date={s.due_date}," \
+               "completed={s.completed}," \
+               "important={s.important}," \
+               "point={s.point}".format(s=self)
