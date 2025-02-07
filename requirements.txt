@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic_settings
+python-multipart>=0.0.20
