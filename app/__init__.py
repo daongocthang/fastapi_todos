@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import routes
+from app import routes
 from app.db import models
 from app.config import settings
 
